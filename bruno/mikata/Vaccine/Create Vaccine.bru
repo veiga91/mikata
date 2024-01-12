@@ -1,0 +1,19 @@
+meta {
+  name: Create Vaccine
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/vaccine
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Rabies Vaccine",
+    "code": "1234ABcs",
+    "description": "Good for your pet"
+  }
+}

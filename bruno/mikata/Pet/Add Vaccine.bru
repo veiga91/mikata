@@ -1,0 +1,18 @@
+meta {
+  name: Add Vaccine
+  type: http
+  seq: 3
+}
+
+patch {
+  url: {{baseUrl}}/pet
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "vaccineId": "d5ab12f4-85e8-4608-b2e9-ef9e3ba646c7",
+    "petId": "82ec8baf-6b7c-4876-ae01-2dd8476e1e48"
+  }
+}

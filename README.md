@@ -52,7 +52,7 @@ Run the migrations and then generate the models
 $ pnpm run migration:dev
 
 # generate models
-$ pnpm generate:models
+$ pnpm run generate:models
 
 # DB prisma GUI
 $ pnpm run prisma:gui

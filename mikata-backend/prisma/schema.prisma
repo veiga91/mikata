@@ -1,0 +1,25 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../node_modules/.prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Vaccine {
+  id          String @id @unique @default(uuid())
+  name        String
+  description String @db.VarChar(30)
+  code        String @unique
+  pet         Pet[]  @relation("PetToVaccine")
+}
+
+model Pet {
+  id        String    @id @unique @default(uuid())
+  name      String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  vaccines  Vaccine[] @relation("PetToVaccine")
+}

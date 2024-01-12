@@ -1,4 +1,4 @@
-# mikata
+# mikata [WIP]
 Manage and organize your pet's vaccines, docs, and schedules
 
 
@@ -17,7 +17,7 @@ Manage and organize your pet's vaccines, docs, and schedules
 Nest.js + Prisma project. 
 
 ##### Bruno
-Check the API client documentation in the ``bruno`` dir using [Bruno](https://docs.usebruno.com/).
+Check the API client documentation and testing in the ``bruno`` dir using [Bruno](https://docs.usebruno.com/).
 
 
 #### Running the back-end app

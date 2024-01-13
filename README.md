@@ -1,11 +1,17 @@
 # mikata [WIP]
+```
+MIKATA
+
+Noun. 味 み 方 かた • (mikata) a friend. a supporter. an ally.
+```
+
 Manage and organize your pet's vaccines, docs, and schedules
 
 
 - In this repo you will find the back-end and front-end projects.
 
 ## Roadmap
-- Create Back-end base project
+- ~~Create Back-end base project~~
 - Create Front-end base project (React Native)
 - Add User Authentication
 - Add Pet Agenda 
@@ -14,7 +20,7 @@ Manage and organize your pet's vaccines, docs, and schedules
 - Add user shared pet management
 
 ## Back-end
-Nest.js + Prisma project. 
+Nest.js + TypeScript + Prisma project. 
 
 ##### Bruno
 Check the API client documentation and testing in the ``bruno`` dir using [Bruno](https://docs.usebruno.com/).

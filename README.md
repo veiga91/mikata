@@ -2,7 +2,7 @@
 ```
 MIKATA (Japanese)
 
-Noun. 味 み 方 かた • (mikata) a friend. a supporter. an ally.
+Noun. 味方 • (mikata) a friend. a supporter. an ally.
 ```
 
 Manage and organize your pet's vaccines, docs, and schedules

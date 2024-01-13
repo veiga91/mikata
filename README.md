@@ -1,6 +1,6 @@
 # mikata [WIP]
 ```
-MIKATA
+MIKATA (Japanese)
 
 Noun. 味 み 方 かた • (mikata) a friend. a supporter. an ally.
 ```

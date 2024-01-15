@@ -12,7 +12,7 @@ Manage and organize your pet's vaccines, docs, and schedules
 
 ## Roadmap
 - ~~Create Back-end base project~~
-- Create Front-end base project (React Native)
+- Create Front-end base projects [WIP]
 - Add User Authentication
 - Add Pet Agenda 
 - Add pet picture upload
@@ -25,15 +25,12 @@ Nest.js + TypeScript + Prisma project.
 ##### Bruno
 Check the API client documentation and testing in the ``bruno`` dir using [Bruno](https://docs.usebruno.com/).
 
-
-#### Running the back-end app
-All commands should be ran from the ```mikata-backend``` dir root
-
 ##### Prerequisites
 - Node.js installed on your machine
 - a PostgreSQL database server running
 
 #### Installation
+All commands should be ran from the ```mikata-backend``` dir root
 
 ```bash
 $ pnpm install
@@ -85,4 +82,32 @@ $ pnpm run test:cov
 ```
 
 ## Front-end (mobile)
-### ...soon
+React Native + TypeScript project.
+
+# Learn More
+
+To learn more about React Native config and installation, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+
+#### Installation (IOS)
+All commands should be ran from the ```mikata-mobile``` dir root
+
+##### Prerequisites (IOS)
+- Node.js installed on your machine
+- Xcode installed with IOS simulators
+- Cocoa Pods installed
+
+```bash
+# install packages
+$ npm install
+
+# install project pods
+$ npm run pod:install
+
+#running IOS project
+$ npm run ios
+```
+

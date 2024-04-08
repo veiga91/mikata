@@ -1,0 +1,33 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Avenuex.otf",
+      "sha1": "5c365a2ae13db13cd32e72f249adf5396de5f13e"
+    },
+    {
+      "path": "assets/fonts/Googee.ttf",
+      "sha1": "5c81f43dc7ad7647c40e919e4277cc460dad21d1"
+    },
+    {
+      "path": "assets/fonts/Junegull.otf",
+      "sha1": "5b31aeb7cba6244b8d6f03c0b81f95df3fc3232b"
+    },
+    {
+      "path": "assets/fonts/KoolBeans.ttf",
+      "sha1": "0f5760e971bf3877bdfa1b5ad338593e8d02daa1"
+    },
+    {
+      "path": "assets/fonts/Rimouski.otf",
+      "sha1": "b3981f60e8b856832107ced29a0d504bfdde10fb"
+    },
+    {
+      "path": "assets/fonts/WildRide.ttf",
+      "sha1": "090a98944063274ea2358a57bf660403f0da4dae"
+    },
+    {
+      "path": "assets/images/shake.png",
+      "sha1": "ab5968b0e7d540971896e2fe922bb8f98d956d6d"
+    }
+  ]
+}

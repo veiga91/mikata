@@ -14,6 +14,13 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Mikata-MikataTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Mikata-MikataTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		E0052080337B43739682BAD6 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F707970C9D45228F74AD58 /* shake.png */; };
+		0B853FE33C354CC690BD46FF /* Avenuex.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4F520069933A492986E61760 /* Avenuex.otf */; };
+		292F7A297555450294D7D2E6 /* Rimouski.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2770F223C1154893876F48BE /* Rimouski.otf */; };
+		C5AA046812144CCCBC15CB27 /* Junegull.otf in Resources */ = {isa = PBXBuildFile; fileRef = 45A38800D13243309BE139C9 /* Junegull.otf */; };
+		DD3233C7167D4121BC5D740C /* Googee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BBF709ACE1A4A43A4967DB8 /* Googee.ttf */; };
+		9EA11431378F497084910FBD /* KoolBeans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE6A26DAB4E64168878C5FF9 /* KoolBeans.ttf */; };
+		44C6160A05A543E58EBBCEE8 /* WildRide.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 091F77F5C4F4468DB6681E8E /* WildRide.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Mikata/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Mikata-MikataTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mikata-MikataTests.release.xcconfig"; path = "Target Support Files/Pods-Mikata-MikataTests/Pods-Mikata-MikataTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F3F707970C9D45228F74AD58 /* shake.png */ = {isa = PBXFileReference; name = "shake.png"; path = "../assets/images/shake.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4F520069933A492986E61760 /* Avenuex.otf */ = {isa = PBXFileReference; name = "Avenuex.otf"; path = "../assets/fonts/Avenuex.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2770F223C1154893876F48BE /* Rimouski.otf */ = {isa = PBXFileReference; name = "Rimouski.otf"; path = "../assets/fonts/Rimouski.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45A38800D13243309BE139C9 /* Junegull.otf */ = {isa = PBXFileReference; name = "Junegull.otf"; path = "../assets/fonts/Junegull.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8BBF709ACE1A4A43A4967DB8 /* Googee.ttf */ = {isa = PBXFileReference; name = "Googee.ttf"; path = "../assets/fonts/Googee.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AE6A26DAB4E64168878C5FF9 /* KoolBeans.ttf */ = {isa = PBXFileReference; name = "KoolBeans.ttf"; path = "../assets/fonts/KoolBeans.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		091F77F5C4F4468DB6681E8E /* WildRide.ttf */ = {isa = PBXFileReference; name = "WildRide.ttf"; path = "../assets/fonts/WildRide.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +136,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C704293573DB44CF9E74AA10 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +162,21 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		C704293573DB44CF9E74AA10 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F3F707970C9D45228F74AD58 /* shake.png */,
+				4F520069933A492986E61760 /* Avenuex.otf */,
+				2770F223C1154893876F48BE /* Rimouski.otf */,
+				45A38800D13243309BE139C9 /* Junegull.otf */,
+				8BBF709ACE1A4A43A4967DB8 /* Googee.ttf */,
+				AE6A26DAB4E64168878C5FF9 /* KoolBeans.ttf */,
+				091F77F5C4F4468DB6681E8E /* WildRide.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +273,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E0052080337B43739682BAD6 /* shake.png in Resources */,
+				0B853FE33C354CC690BD46FF /* Avenuex.otf in Resources */,
+				292F7A297555450294D7D2E6 /* Rimouski.otf in Resources */,
+				C5AA046812144CCCBC15CB27 /* Junegull.otf in Resources */,
+				DD3233C7167D4121BC5D740C /* Googee.ttf in Resources */,
+				9EA11431378F497084910FBD /* KoolBeans.ttf in Resources */,
+				44C6160A05A543E58EBBCEE8 /* WildRide.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,11 +617,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
@@ -652,11 +685,7 @@
 					"-DFOLLY_USE_LIBCPP=1",
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-Wl",
-					"-ld_classic",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

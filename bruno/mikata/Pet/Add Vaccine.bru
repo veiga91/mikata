@@ -5,9 +5,13 @@ meta {
 }
 
 patch {
-  url: {{baseUrl}}/pet
+  url: {{baseUrl}}/pet/vaccines
   body: json
   auth: none
+}
+
+headers {
+  Content-Type: application/json
 }
 
 body:json {

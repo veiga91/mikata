@@ -10,15 +10,6 @@ Manage and organize your pet's vaccines, docs, and schedules
 
 - In this repo you will find the back-end and front-end projects.
 
-## Roadmap
-- ~~Create Back-end base project~~
-- Create Front-end base projects [WIP]
-- Add User Authentication
-- Add Pet Agenda 
-- Add pet picture upload
-- Add pet docs upload
-- Add user shared pet management
-
 ## Back-end
 Nest.js + TypeScript + Prisma project. 
 
